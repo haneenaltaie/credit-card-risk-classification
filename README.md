@@ -37,13 +37,13 @@ This project demonstrates why evaluation metrics such as **Recall** and **F1-sco
 
 The project workflow included the following stages:
 
-1. Data preprocessing
-2. Handling missing values
-3. Encoding categorical variables
-4. Training a Two-Class Logistic Regression model
-5. Hyperparameter tuning
-6. Applying SMOTE to address class imbalance
-7. Evaluating model performance before and after balancing
+1. Data preprocessing  
+2. Handling missing values  
+3. Encoding categorical variables  
+4. Training a Two-Class Logistic Regression model  
+5. Hyperparameter tuning  
+6. Applying SMOTE to address class imbalance  
+7. Evaluating model performance before and after balancing  
 
 ---
 
@@ -110,24 +110,23 @@ This suggests the dataset contains more complex patterns than Logistic Regressio
 
 ## Screenshots
 
-### Azure ML Workflow
-![Workflow Overview](workflow-overview.png)
+### Azure ML Workflow with SMOTE
+![Workflow Overview](workflow-overview-SMOT.png)
 
-### Metrics Comparison
-![Metrics Comparison](metrics-comparison.png)
+### Hyperparameter Tuning / Metrics After SMOTE
+![Metrics Comparison](metrics-comparison-SMOT2.png)
 
-### Model Results
+### Final Model Results
 ![Model Results](model-results.png)
 
 ---
 
 ## Files Included
 
-- `lab-07-hpo.docx` → editable project report
 - `lab-07-hpo.pdf` → final project report
-- `workflow-overview.png` → Azure ML pipeline screenshot
-- `metrics-comparison.png` → before vs after SMOTE metrics
-- `model-results.png` → model evaluation / final result screenshot
+- `workflow-overview-SMOT.png` → Azure ML workflow including SMOTE
+- `metrics-comparison-SMOT2.png` → tuned model metrics after SMOTE
+- `model-results.png` → final model evaluation and boosted decision tree result
 
 ---
 
